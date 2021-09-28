@@ -162,6 +162,7 @@ extension UIKit.UIDevice {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class OkPreferences {
+  public static let shared: OkCore.OkPreferences
   public var branchId: Swift.String? {
     get
   }
